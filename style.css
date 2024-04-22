@@ -1,0 +1,83 @@
+.caixa {
+    background-color: #ccc;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.caixa-direction{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 10px;
+    position: relative;
+}
+.numero{
+    font-size: 150%;
+    color: rgb(250, 192, 0);
+    font-weight: bold;
+}
+.circulo {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: rgb(189, 186, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.caixa-branca{
+    background-color: bisque;
+    border: solid 1px #eeff00;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.caixa-wrap {
+    width: 100px;
+    height: 100px;
+    background-color: #ff7b00;
+    columns: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+}
+.caixa-azul {
+    background-color: #e0ff2f;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.caixa-justfy {
+    width: 100px;
+    height: 100px;
+    background-color: #f014ae;
+    margin: 5px;
+    border-radius: 10px;
+}
+.caixa-azul-2 {
+    background-color: #0d9900;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    width: 111px;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+}
+.caixa-justfy-2 {
+    width: 100px;
+    height: 100px;
+    background-color: #f80c0c;
+    margin: 5px;
+    border-radius: 10px;
+}
